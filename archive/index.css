@@ -1,0 +1,78 @@
+:root {
+  --biege: #fdf8f4;
+}
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--biege);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/**
+ ********** 
+ * Header *
+ **********
+*/
+header {
+  padding: 40px;
+}
+
+header a:link,
+header a:visited {
+  font-family: 'Space Mono', monospace;
+  font-size: 28px;
+  text-decoration: none;
+  color: #171719;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/**
+ ********  
+ * Main *
+ ********  
+*/
+main {
+  flex: 1;
+  padding: 0px 40px;
+}
+
+/**
+ **********  
+ * Footer *
+ **********
+*/
+footer {
+  padding: 40px 30px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 15px;
+  color: #606060;
+}
+
+footer a {
+  text-decoration: none;
+  color: #171719;
+  font-weight: 700;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
