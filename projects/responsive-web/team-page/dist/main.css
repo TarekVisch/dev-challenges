@@ -58,7 +58,10 @@ body {
   flex-wrap: wrap;
 }
 .main .card {
+  width: 26.6666666667%;
   position: relative;
+  margin-bottom: 50px;
+  min-width: 260px;
 }
 .main .card:nth-child(2) {
   margin-top: 60px;
@@ -67,7 +70,7 @@ body {
   margin-top: 60px;
 }
 .main .card img {
-  width: 260px;
+  width: 93%;
   height: auto;
   margin-bottom: 10px;
 }
@@ -85,7 +88,7 @@ body {
   position: absolute;
   transform-origin: top left;
   top: 0;
-  left: 110%;
+  left: 100%;
   transform: rotate(90deg);
   width: max-content;
   color: rgba(0, 0, 0, 0.7);

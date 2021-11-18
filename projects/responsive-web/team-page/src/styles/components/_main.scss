@@ -11,7 +11,10 @@
   }
 
   .card {
+    width: calc(80% / 3);
     position: relative;
+    margin-bottom: 50px;
+    min-width: 260px;
 
     &:nth-child(2) {
       margin-top: 60px;
@@ -21,7 +24,7 @@
     }
 
     img {
-      width: 260px;
+      width: 93%;
       height: auto;
       margin-bottom: 10px;
     }
@@ -42,7 +45,7 @@
       position: absolute;
       transform-origin: top left;
       top: 0;
-      left: 110%;
+      left: 100%;
       transform: rotate(90deg);
       width: max-content;
 
