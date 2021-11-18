@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  padding: 24px;
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #a9a9a9;
+    font-size: 14px;
+
+    a {
+      &:link,
+      &:visited {
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        font-weight: 700;
+        color: #a9a9a9;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
