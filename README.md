@@ -13,4 +13,4 @@ A simple and responsive 404 not found page.
 
 ### Team Page
 
-A Team page with a neat and reponsive layout
+A Team page with a neat and responsive layout.
