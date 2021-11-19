@@ -6,6 +6,7 @@ these series are inspired from [devchallenges](https://devchallenges.io/). You c
 #### Table of contents
 
 - [404 Page](#404-page)
+- [Team Page](#team-page)
 
 ### 404 Page
 
