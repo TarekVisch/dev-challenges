@@ -10,3 +10,7 @@ these series are inspired from [devchallenges](https://devchallenges.io/). You c
 ### 404 Page
 
 A simple and responsive 404 not found page.
+
+### Team Page
+
+A Team page with a neat and reponsive layout
