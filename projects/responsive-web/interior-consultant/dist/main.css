@@ -19,6 +19,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1400px) {
+  .page {
+    padding: 0px 30px;
+  }
+}
 
 .btn {
   text-decoration: none;
@@ -79,13 +84,30 @@ body {
   flex: 1;
   margin-top: 150px;
 }
+@media (max-width: 920px) {
+  .jumbotron {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+}
 .jumbotron .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 920px) {
+  .jumbotron .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .jumbotron__left {
   flex: 1;
+}
+@media (max-width: 920px) {
+  .jumbotron__left {
+    margin-bottom: 30px;
+  }
 }
 .jumbotron__left h1 {
   font-family: "Lora", serif;
@@ -94,12 +116,33 @@ body {
   line-height: 60px;
   margin-bottom: 40px;
 }
+@media (max-width: 1024px) {
+  .jumbotron__left h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 920px) {
+  .jumbotron__left h1 {
+    margin-bottom: 25px;
+  }
+}
 .jumbotron__left p {
   max-width: 400px;
   font-weight: 400;
   font-size: 20px;
   line-height: 31px;
   margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+  .jumbotron__left p {
+    font-size: 19px;
+  }
+}
+@media (max-width: 920px) {
+  .jumbotron__left p {
+    margin-bottom: 25px;
+    max-width: 600px;
+  }
 }
 .jumbotron__right {
   flex: 1.15;
@@ -116,9 +159,15 @@ body {
   left: 40%;
   top: 85%;
   padding: 25px;
-  width: 400px;
+  width: 55%;
   background-color: #181719;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1024px) {
+  .jumbotron__right__card {
+    width: 70%;
+    left: 25%;
+  }
 }
 .jumbotron__right__card__designer {
   display: flex;
@@ -151,6 +200,11 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 35px;
+}
+@media (max-width: 1024px) {
+  .jumbotron__right__card__date p {
+    font-size: 18px;
+  }
 }
 
 .footer {
