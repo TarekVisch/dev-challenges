@@ -3,6 +3,21 @@
   display: inline-block;
 
   &-nav {
+    &:link,
+    &:visited {
+      font-weight: 500;
+      font-size: 18px;
+      color: #ffffff;
+      padding: 10px 0px;
+    }
+
+    &.active {
+      &:link,
+      &:visited {
+        font-weight: 700;
+        border-bottom: 2px solid #ffffff;
+      }
+    }
   }
 
   &-footer {

@@ -24,12 +24,46 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+.btn-nav:link, .btn-nav:visited {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 0px;
+}
+.btn-nav.active:link, .btn-nav.active:visited {
+  font-weight: 700;
+  border-bottom: 2px solid #ffffff;
+}
 .btn-footer {
   color: #a9a9a9;
   font-weight: 700;
 }
 .btn-footer:hover {
   text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.header__logo {
+  text-transform: uppercase;
+  padding: 8px;
+  border: 1px solid #fff;
+  font-family: "Crimson Pro", serif;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+.nav__item {
+  margin-left: 80px;
 }
 
 .jumbotron {

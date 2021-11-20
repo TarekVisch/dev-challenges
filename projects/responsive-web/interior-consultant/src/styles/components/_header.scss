@@ -1,2 +1,16 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+
+  &__logo {
+    text-transform: uppercase;
+    padding: 8px;
+    border: 1px solid #fff;
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+  }
 }
