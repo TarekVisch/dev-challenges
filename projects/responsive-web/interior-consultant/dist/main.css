@@ -7,16 +7,43 @@
 }
 
 body {
-  font-weight: 400;
-  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
   background-color: #181719;
   color: #ffffff;
 }
 
 .page {
+  max-width: 1400px;
+  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-footer {
+  color: #a9a9a9;
+  font-weight: 700;
+}
+.btn-footer:hover {
+  text-decoration: underline;
+}
+
+.jumbotron {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px;
+}
+.footer p {
+  font-weight: 400;
+  color: #a9a9a9;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+
+  &-nav {
+  }
+
+  &-footer {
+    color: #a9a9a9;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
