@@ -20,6 +20,20 @@
     }
   }
 
+  &-read {
+    &:link,
+    &:visited {
+      display: inline-flex;
+      align-items: center;
+      color: #ffffff;
+      font-weight: 700;
+
+      svg {
+        margin-left: 10px;
+      }
+    }
+  }
+
   &-footer {
     color: #a9a9a9;
     font-weight: 700;

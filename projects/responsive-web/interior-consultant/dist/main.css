@@ -34,6 +34,15 @@ body {
   font-weight: 700;
   border-bottom: 2px solid #ffffff;
 }
+.btn-read:link, .btn-read:visited {
+  display: inline-flex;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+.btn-read:link svg, .btn-read:visited svg {
+  margin-left: 10px;
+}
 .btn-footer {
   color: #a9a9a9;
   font-weight: 700;
@@ -68,6 +77,80 @@ body {
 
 .jumbotron {
   flex: 1;
+  margin-top: 150px;
+}
+.jumbotron .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jumbotron__left {
+  flex: 1;
+}
+.jumbotron__left h1 {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+.jumbotron__left p {
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  margin-bottom: 40px;
+}
+.jumbotron__right {
+  flex: 1.15;
+}
+.jumbotron__right__container {
+  position: relative;
+}
+.jumbotron__right__hero-image {
+  width: 100%;
+  height: auto;
+}
+.jumbotron__right__card {
+  position: absolute;
+  left: 40%;
+  top: 85%;
+  padding: 25px;
+  width: 400px;
+  background-color: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.jumbotron__right__card__designer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.jumbotron__right__card__designer__image {
+  margin-right: 20px;
+}
+.jumbotron__right__card__designer__image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.jumbotron__right__card__designer__info h3 {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.jumbotron__right__card__designer__info p {
+  color: #828282;
+  font-weight: 500;
+  font-size: 12px;
+}
+.jumbotron__right__card__date p {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
 }
 
 .footer {
