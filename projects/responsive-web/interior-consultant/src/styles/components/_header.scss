@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
+  position: relative;
 
   &__logo {
     text-transform: uppercase;
@@ -12,5 +13,51 @@
     font-size: 14px;
     font-weight: 200;
     letter-spacing: 0.5px;
+    z-index: 5;
+  }
+
+  &__burger {
+    display: none;
+    width: 40px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+    z-index: 5;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+
+    &__line {
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      background-color: #ffffff;
+
+      &:nth-child(1) {
+      }
+      &:nth-child(2) {
+        top: calc(50% - 1.5px);
+      }
+      &:nth-child(3) {
+        bottom: 0;
+      }
+    }
+
+    &.burgerOpen {
+      .header__burger__line {
+        &:nth-child(1) {
+          top: calc(50% - 1.5px);
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:nth-child(3) {
+          top: calc(50% - 1.5px);
+          transform: rotate(-45deg);
+        }
+      }
+    }
   }
 }
