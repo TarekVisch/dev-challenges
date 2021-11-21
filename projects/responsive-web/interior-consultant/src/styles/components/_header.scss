@@ -28,6 +28,11 @@
       display: block;
     }
 
+    @media (max-width: 375px) {
+      width: 30px;
+      height: 25px;
+    }
+
     &__line {
       position: absolute;
       height: 3px;

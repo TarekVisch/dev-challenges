@@ -24,6 +24,11 @@ body {
     padding: 0px 30px;
   }
 }
+@media (max-width: 425px) {
+  .page {
+    padding: 0px 15px;
+  }
+}
 
 .btn {
   text-decoration: none;
@@ -84,6 +89,12 @@ body {
 @media (max-width: 768px) {
   .header__burger {
     display: block;
+  }
+}
+@media (max-width: 375px) {
+  .header__burger {
+    width: 30px;
+    height: 25px;
   }
 }
 .header__burger__line {
@@ -191,6 +202,11 @@ body {
     margin-bottom: 25px;
   }
 }
+@media (max-width: 425px) {
+  .jumbotron__left h1 {
+    font-size: 36px;
+  }
+}
 .jumbotron__left p {
   max-width: 400px;
   font-weight: 400;
@@ -207,6 +223,12 @@ body {
   .jumbotron__left p {
     margin-bottom: 25px;
     max-width: 600px;
+  }
+}
+@media (max-width: 425px) {
+  .jumbotron__left p {
+    font-size: 16px;
+    max-width: 100%;
   }
 }
 .jumbotron__right {
@@ -238,6 +260,12 @@ body {
   .jumbotron__right__card {
     width: 60%;
     left: 35%;
+  }
+}
+@media (max-width: 425px) {
+  .jumbotron__right__card {
+    width: 95%;
+    left: 10px;
   }
 }
 .jumbotron__right__card__designer {
