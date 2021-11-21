@@ -15,3 +15,7 @@ A simple and responsive 404 not found page.
 ### Team Page
 
 A Team page with a neat and responsive layout.
+
+### Interior Consultant
+
+A fully responsive interior agency homepage with collapsible navigation on small screens.
