@@ -188,4 +188,33 @@ h3 {
   font-weight: 600;
 }
 
+.instruction {
+  display: flex;
+  margin-bottom: 30px;
+}
+.instruction-box {
+  flex-shrink: 0;
+  height: 40px;
+  width: 40px;
+  background-color: #f2994a;
+  border-radius: 3px;
+  position: relative;
+  margin-right: 15px;
+}
+.instruction-box p {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.instruction-text p {
+  line-height: 1.5;
+}
+.instruction-text p strong {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=main.css.map */
