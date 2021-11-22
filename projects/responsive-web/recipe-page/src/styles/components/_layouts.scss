@@ -23,15 +23,16 @@
   &__body {
     &__row {
       display: flex;
+      justify-content: space-between;
     }
 
     &__col {
       &--1 {
-        flex: 3;
+        width: 60%;
       }
 
       &--2 {
-        flex: 1;
+        width: 24%;
       }
     }
   }

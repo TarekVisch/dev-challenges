@@ -43,6 +43,7 @@ h3 {
   font-size: 18px;
   color: #333333;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .recipe-title {
@@ -98,12 +99,13 @@ h3 {
 }
 .main__body__row {
   display: flex;
+  justify-content: space-between;
 }
 .main__body__col--1 {
-  flex: 3;
+  width: 60%;
 }
 .main__body__col--2 {
-  flex: 1;
+  width: 24%;
 }
 
 .footer {
@@ -163,6 +165,27 @@ h3 {
 }
 .infocard__info__text p.colored {
   color: #f2994a;
+}
+
+.checkbox {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.checkbox .box {
+  margin-right: 10px;
+  display: flex;
+}
+.checkbox .box svg {
+  fill: #828282;
+  height: 27px;
+  width: 27px;
+}
+.checkbox .text p {
+  margin-top: 2.9px;
+}
+.checkbox .text p strong {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
