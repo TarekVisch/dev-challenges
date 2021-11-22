@@ -1,0 +1,54 @@
+.infocard {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 100%;
+  padding: 50px;
+
+  &__info {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    &__svg {
+      display: flex;
+      margin-right: 15px;
+
+      svg {
+        fill: $gray-400;
+        height: 35px;
+        width: 35px;
+
+        &.colored {
+          fill: $orange;
+        }
+      }
+    }
+
+    &__text {
+      p {
+        &:nth-child(1) {
+          font-family: $font-montserrat;
+          font-size: 10px;
+          text-transform: uppercase;
+          color: $gray-200;
+          font-weight: 700;
+          letter-spacing: 1.1px;
+          margin-bottom: 3px;
+        }
+
+        &:nth-child(2) {
+          color: $gray-500;
+          font-weight: 600;
+          font-size: 14px;
+        }
+
+        &.colored {
+          color: $orange;
+        }
+      }
+    }
+  }
+}

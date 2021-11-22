@@ -20,8 +20,21 @@
     }
   }
 
-  // &__body {
-  // }
+  &__body {
+    &__row {
+      display: flex;
+    }
+
+    &__col {
+      &--1 {
+        flex: 3;
+      }
+
+      &--2 {
+        flex: 1;
+      }
+    }
+  }
 }
 
 .footer {
