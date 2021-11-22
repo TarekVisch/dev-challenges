@@ -4,6 +4,24 @@ body {
   font-size: 16px;
 }
 
+h2 {
+  font-family: $font-playfair;
+  font-weight: 700;
+  font-size: 24px;
+  color: $gray-500;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: $font-playfair;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  color: $gray-500;
+  margin-bottom: 30px;
+}
+
 .recipe {
   &-title {
     font-family: $font-playfair;
