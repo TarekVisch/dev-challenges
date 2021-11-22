@@ -3,3 +3,19 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+
+/* .recipe {
+  &-title {
+  }
+
+  &-desciption {
+  }
+} */
+
+.paragraph {
+  &-footer {
+    font-family: $font-montserrat;
+    color: $gray-300;
+    font-size: 14px;
+  }
+}

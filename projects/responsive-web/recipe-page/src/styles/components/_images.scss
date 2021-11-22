@@ -1,0 +1,13 @@
+.image {
+  /* Recipe Image */
+  &__recipe {
+    &--container {
+      display: flex;
+      margin-bottom: 50px;
+    }
+
+    &--img {
+      width: 100%;
+    }
+  }
+}

@@ -13,10 +13,62 @@ body {
   background-color: #ffffff;
 }
 
+.page {
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+/* .recipe {
+  &-title {
+  }
+
+  &-desciption {
+  }
+} */
+.paragraph-footer {
+  font-family: "Montserrat", sans-serif;
+  color: #828282;
+  font-size: 14px;
+}
+
+.image {
+  /* Recipe Image */
+}
+.image__recipe--container {
+  display: flex;
+  margin-bottom: 50px;
+}
+.image__recipe--img {
+  width: 100%;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px;
+}
+
+.btn {
+  text-decoration: none;
+}
+.btn-footer {
+  color: #828282;
+  font-weight: 700;
+}
+.btn-footer:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */

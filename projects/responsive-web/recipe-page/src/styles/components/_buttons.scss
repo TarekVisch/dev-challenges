@@ -1,0 +1,12 @@
+.btn {
+  text-decoration: none;
+
+  &-footer {
+    color: $gray-300;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
