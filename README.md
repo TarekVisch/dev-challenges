@@ -24,4 +24,4 @@ A fully responsive interior agency homepage with collapsible navigation on small
 
 ### Recipe Page
 
-Fully responsive recipe blog/page width checkbox feature.
+Fully responsive recipe blog/page with checkbox feature.
