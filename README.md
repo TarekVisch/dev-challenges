@@ -7,6 +7,8 @@ these series are inspired from [devchallenges](https://devchallenges.io/). You c
 
 - [404 Page](#404-page)
 - [Team Page](#team-page)
+- [Interior Consultant](#interior-consultant)
+- [Recipe Page](#recipe-page)
 
 ### 404 Page
 
