@@ -19,3 +19,7 @@ A Team page with a neat and responsive layout.
 ### Interior Consultant
 
 A fully responsive interior agency homepage with collapsible navigation on small screens.
+
+### Recipe Page
+
+Fully responsive recipe blog/page width checkbox feature.
