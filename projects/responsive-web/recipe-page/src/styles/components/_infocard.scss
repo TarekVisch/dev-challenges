@@ -4,17 +4,46 @@
   width: 100%;
   padding: 50px;
 
+  @media (max-width: 850px) {
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+  }
+
   &__info {
     display: flex;
     align-items: center;
 
     &:not(:last-child) {
       margin-bottom: 40px;
+
+      @media (max-width: 850px) {
+        margin-bottom: 0;
+      }
+    }
+
+    &:first-child {
+      @media (max-width: 850px) {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      width: 50% !important;
+      margin-bottom: 20px !important;
     }
 
     &__svg {
       display: flex;
       margin-right: 15px;
+
+      @media (max-width: 425px) {
+        margin-right: 5px;
+      }
 
       svg {
         fill: $gray-400;
