@@ -19,4 +19,8 @@ body {
 
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1020px) {
+    padding: 0px 20px;
+  }
 }

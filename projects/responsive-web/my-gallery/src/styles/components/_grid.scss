@@ -5,23 +5,43 @@
 
   &:not(:last-child) {
     margin-bottom: 30px;
+
+    @media (max-width: 560px) {
+      margin-bottom: 15px;
+    }
   }
 }
 
 .col-1-3 {
   width: calc((100% * 0.33) - 10px);
+
+  @media (max-width: 560px) {
+    width: calc((100% * 0.33) - 5px);
+  }
 }
 
 .col-2-3 {
   width: calc((100% * 0.667) - 10px);
+
+  @media (max-width: 560px) {
+    width: calc((100% * 0.667) - 5px);
+  }
 }
 
 .col-3-3 {
   width: calc(100% - 10px);
+
+  @media (max-width: 560px) {
+    width: calc(100% - 5px);
+  }
 }
 
 .col-half {
   width: calc((100% / 2) - 10px);
+
+  @media (max-width: 560px) {
+    width: calc((100% / 2) - 5px);
+  }
 }
 
 .col {
