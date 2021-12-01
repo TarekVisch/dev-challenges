@@ -71,4 +71,26 @@ body {
   font-size: 14px;
 }
 
+.body {
+  flex: 1;
+}
+
+.footer {
+  padding: 24px;
+  text-align-last: center;
+}
+.footer p {
+  color: #b9bdcf;
+  font-weight: 400;
+}
+.footer p a {
+  text-decoration: none;
+  color: #b9bdcf;
+  font-family: inherit;
+  font-weight: 600;
+}
+.footer p a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=main.css.map */
