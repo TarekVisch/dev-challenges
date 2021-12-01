@@ -9,6 +9,7 @@ these series are inspired from [devchallenges](https://devchallenges.io/). You c
 - [Team Page](#team-page)
 - [Interior Consultant](#interior-consultant)
 - [Recipe Page](#recipe-page)
+- [My Gallery](#my-gallery)
 
 ### 404 Page
 
@@ -25,3 +26,7 @@ A fully responsive interior agency homepage with collapsible navigation on small
 ### Recipe Page
 
 Fully responsive recipe blog/page with checkbox feature.
+
+### My Gallery
+
+Image display gallery with a fully responsive layout
