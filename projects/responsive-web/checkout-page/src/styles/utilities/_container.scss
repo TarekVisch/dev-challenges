@@ -20,5 +20,20 @@
         height: 20px;
       }
     }
+
+    &-width {
+      &-small {
+        width: 8px;
+      }
+      &-medium {
+        width: 12px;
+      }
+      &-big {
+        width: 16px;
+      }
+      &-extra-big {
+        width: 20px;
+      }
+    }
   }
 }

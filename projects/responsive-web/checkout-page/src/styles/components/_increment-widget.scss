@@ -1,0 +1,43 @@
+.increment-widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 45px;
+  width: 135px;
+  padding: 8px 12px;
+
+  border: 1px solid $grey-500;
+  border-radius: 10px;
+
+  &__btn {
+    border: 0;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 18px;
+    color: $grey-600;
+    font-weight: 500;
+
+    width: 21px;
+    height: 21px;
+    background-color: $grey-300;
+    border-radius: 4px;
+    transition: background-color 0.25s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: $grey-400;
+    }
+  }
+
+  &__value {
+    font-size: 15px;
+    font-weight: 600;
+    color: $grey-700;
+  }
+}

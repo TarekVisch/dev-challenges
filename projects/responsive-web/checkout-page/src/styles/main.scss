@@ -9,10 +9,13 @@
 /* Components */
 @import 'components/buttons';
 @import 'components/text-field';
+@import 'components/cart-item';
+@import 'components/increment-widget';
 
 /* Layout */
 @import 'layout/page';
 @import 'layout/grid';
+@import 'layout/cart';
 
 /* Utilities */
 @import 'utilities/container';
