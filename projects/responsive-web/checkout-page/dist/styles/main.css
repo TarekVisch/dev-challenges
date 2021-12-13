@@ -16,7 +16,39 @@ body {
   color: #424242;
 }
 
+/* Paragraphs */
+.paragraph-footer {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9e9e9e;
+}
+
 /* Components */
+.btn {
+  text-decoration: none;
+  color: inherit;
+}
+.btn-classic {
+  font-weight: 600;
+}
+.btn-classic:hover {
+  text-decoration: underline;
+}
+
 /* Layout */
+.page {
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.page__main {
+  flex: 1;
+}
+.page__footer {
+  padding: 15px 20px;
+  text-align-last: center;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+.btn {
+  text-decoration: none;
+  color: inherit;
+
+  &-classic {
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
