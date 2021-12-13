@@ -1,4 +1,6 @@
 .text-field {
+  height: 100px;
+
   &__label {
     margin-bottom: 5px;
 
@@ -13,7 +15,7 @@
     display: flex;
     align-items: center;
 
-    height: 40px;
+    height: 50px;
     position: relative;
     border-radius: 5px;
     border: 1px solid $grey-500;
@@ -41,7 +43,7 @@
         background-color: transparent;
 
         font-family: $font-montserrat;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 500;
         color: $grey-700;
 

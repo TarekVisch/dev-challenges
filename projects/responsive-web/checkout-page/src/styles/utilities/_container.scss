@@ -1,0 +1,24 @@
+.container {
+  &-inputs {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &-empty {
+    &-height {
+      &-small {
+        height: 8px;
+      }
+      &-medium {
+        height: 12px;
+      }
+      &-big {
+        height: 16px;
+      }
+      &-extra-big {
+        height: 20px;
+      }
+    }
+  }
+}
