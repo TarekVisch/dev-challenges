@@ -5,7 +5,10 @@
 
 .col {
   flex: 1;
-  min-width: 400px;
+
+  &-min {
+    min-width: 400px;
+  }
 
   &-order {
     &-1 {
