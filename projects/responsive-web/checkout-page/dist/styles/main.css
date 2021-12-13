@@ -1,5 +1,6 @@
 /* Abstracts */
 /* Colors */
+/* Fonts */
 /* Base */
 *::after,
 *::before,
@@ -33,6 +34,56 @@ body {
 }
 .btn-classic:hover {
   text-decoration: underline;
+}
+
+.text-field__label {
+  margin-bottom: 5px;
+}
+.text-field__label label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #616161;
+}
+.text-field__inner {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #9e9e9e;
+}
+.text-field__inner__icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 10px;
+}
+.text-field__inner__icon svg {
+  fill: #757575;
+}
+.text-field__inner__input {
+  flex: 1;
+  height: 100%;
+}
+.text-field__inner__input input {
+  height: 100%;
+  width: 100%;
+  padding-right: 10px;
+  border: none;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #616161;
+}
+.text-field__inner__input input:focus {
+  outline: none;
+}
+.text-field__error {
+  margin-top: 5px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #f44336;
 }
 
 /* Layout */
