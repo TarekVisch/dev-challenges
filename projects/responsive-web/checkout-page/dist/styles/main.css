@@ -102,4 +102,24 @@ body {
   text-align-last: center;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  min-width: 400px;
+}
+@media (max-width: 800px) {
+  .col-order-1 {
+    order: 1;
+  }
+}
+@media (max-width: 800px) {
+  .col-order-2 {
+    order: 2;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

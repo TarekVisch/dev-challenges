@@ -16,30 +16,131 @@
       <main class="page__main">
         <h1>Chekout</h1>
 
-        <!-- Text Field Component -->
-        <div class="text-field">
-          <div class="text-field__label">
-            <label for="email">E-mail</label>
+        <div class="row">
+          <div class="col col-order-2">
+            <form action="#">
+              <div class="container-inputs">
+                <h2>Contact information</h2>
+                <!-- Text Field Component -->
+                <div class="text-field">
+                  <div class="text-field__label">
+                    <label for="email">E-mail</label>
+                  </div>
+                  <div class="text-field__inner">
+                    <div class="text-field__inner__icon">
+                      <!-- prettier-ignore -->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    </div>
+                    <div class="text-field__inner__input">
+                      <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        placeholder="Your email..."
+                      />
+                    </div>
+                  </div>
+                  <div class="text-field__error">This is an error message.</div>
+                </div>
+                <!-- !-Text Field Component-! -->
+                <!-- Text Field Component -->
+                <div class="text-field">
+                  <div class="text-field__label">
+                    <label for="phone">Phone</label>
+                  </div>
+                  <div class="text-field__inner">
+                    <div class="text-field__inner__icon">
+                      <!-- prettier-ignore -->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                    </div>
+                    <div class="text-field__inner__input">
+                      <input
+                        type="text"
+                        name="phone"
+                        id="phone"
+                        placeholder="Your phone number..."
+                      />
+                    </div>
+                  </div>
+                  <div class="text-field__error">This is an error message.</div>
+                </div>
+                <!-- !-Text Field Component-! -->
+              </div>
+
+              <div class="container-inputs">
+                <h2>Shipping address</h2>
+                <!-- Text Field Component -->
+                <div class="text-field">
+                  <div class="text-field__label">
+                    <label for="full-name">Full name</label>
+                  </div>
+                  <div class="text-field__inner">
+                    <div class="text-field__inner__icon">
+                      <!-- prettier-ignore -->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+                    </div>
+                    <div class="text-field__inner__input">
+                      <input
+                        type="text"
+                        name="full-name"
+                        id="full-name"
+                        placeholder="Your full name..."
+                      />
+                    </div>
+                  </div>
+                  <div class="text-field__error">This is an error message.</div>
+                </div>
+                <!-- !-Text Field Component-! -->
+                <!-- Text Field Component -->
+                <div class="text-field">
+                  <div class="text-field__label">
+                    <label for="address">Address</label>
+                  </div>
+                  <div class="text-field__inner">
+                    <div class="text-field__inner__icon">
+                      <!-- prettier-ignore -->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                    </div>
+                    <div class="text-field__inner__input">
+                      <input
+                        type="text"
+                        name="address"
+                        id="address"
+                        placeholder="Your address..."
+                      />
+                    </div>
+                  </div>
+                  <div class="text-field__error">This is an error message.</div>
+                </div>
+                <!-- !-Text Field Component-! -->
+                <!-- Text Field Component -->
+                <div class="text-field">
+                  <div class="text-field__label">
+                    <label for="city">City</label>
+                  </div>
+                  <div class="text-field__inner">
+                    <div class="text-field__inner__icon">
+                      <!-- prettier-ignore -->
+                      <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><path d="M17,11V3H7v4H3v14h8v-4h2v4h8V11H17z M7,19H5v-2h2V19z M7,15H5v-2h2V15z M7,11H5V9h2V11z M11,15H9v-2h2V15z M11,11H9V9h2 V11z M11,7H9V5h2V7z M15,15h-2v-2h2V15z M15,11h-2V9h2V11z M15,7h-2V5h2V7z M19,19h-2v-2h2V19z M19,15h-2v-2h2V15z"/></g></svg>
+                    </div>
+                    <div class="text-field__inner__input">
+                      <input
+                        type="text"
+                        name="city"
+                        id="city"
+                        placeholder="Your city..."
+                      />
+                    </div>
+                  </div>
+                  <div class="text-field__error">This is an error message.</div>
+                </div>
+                <!-- !-Text Field Component-! -->
+              </div>
+            </form>
           </div>
 
-          <div class="text-field__inner">
-            <div class="text-field__inner__icon">
-              <!-- prettier-ignore -->
-              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-            </div>
-            <div class="text-field__inner__input">
-              <input
-                type="text"
-                name="email"
-                id="email"
-                placeholder="Enter your email..."
-              />
-            </div>
-          </div>
-
-          <div class="text-field__error">This is an error message.</div>
+          <div class="col col-order-1">Order</div>
         </div>
-        <!-- !-Text Field Component-! -->
       </main>
 
       <footer class="page__footer">

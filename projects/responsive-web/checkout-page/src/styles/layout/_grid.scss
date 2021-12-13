@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  min-width: 400px;
+
+  &-order {
+    &-1 {
+      @media (max-width: 800px) {
+        order: 1;
+      }
+    }
+
+    &-2 {
+      @media (max-width: 800px) {
+        order: 2;
+      }
+    }
+  }
+}
