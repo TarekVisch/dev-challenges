@@ -12,5 +12,38 @@
     @media (max-width: 800px) {
       width: 100%;
     }
+
+    &__shipping {
+      margin-top: 80px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0px;
+      border-top: 1px solid $grey-400;
+
+      p {
+        font-weight: 600;
+        font-size: 15px;
+
+        &:first-child {
+          font-size: 18px;
+        }
+      }
+    }
+
+    &__total {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0px 0px 0px;
+      border-top: 1px solid $grey-400;
+
+      p {
+        font-weight: 600;
+        font-size: 15px;
+
+        &:first-child {
+          font-size: 18px;
+        }
+      }
+    }
   }
 }
