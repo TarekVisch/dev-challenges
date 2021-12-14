@@ -9,4 +9,19 @@
       text-decoration: underline;
     }
   }
+
+  &-submit {
+    background-color: transparent;
+    border: none;
+    padding: 15px 25px;
+    background-color: $color-main;
+    border-radius: 50px;
+
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: $grey-50;
+
+    cursor: pointer;
+  }
 }

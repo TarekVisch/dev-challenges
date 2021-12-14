@@ -50,6 +50,18 @@ h2 {
 .btn-classic:hover {
   text-decoration: underline;
 }
+.btn-submit {
+  background-color: transparent;
+  border: none;
+  padding: 15px 25px;
+  background-color: #f2994a;
+  border-radius: 50px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fafafa;
+  cursor: pointer;
+}
 
 .text-field {
   height: 100px;
@@ -262,8 +274,13 @@ h2 {
 }
 
 /* Utilities */
-.container-inputs:not(:last-child) {
+.container-inputs:first-child {
   margin-bottom: 40px;
+}
+.container__form-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
 .container-empty-height-small {
   height: 8px;

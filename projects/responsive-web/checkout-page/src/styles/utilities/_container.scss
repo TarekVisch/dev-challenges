@@ -1,8 +1,14 @@
 .container {
   &-inputs {
-    &:not(:last-child) {
+    &:first-child {
       margin-bottom: 40px;
     }
+  }
+
+  &__form-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
   }
 
   &-empty {
