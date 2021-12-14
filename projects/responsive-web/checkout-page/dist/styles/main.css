@@ -81,6 +81,7 @@ h2 {
   position: relative;
   border-radius: 5px;
   border: 1px solid #9e9e9e;
+  cursor: pointer;
 }
 .text-field__inner__icon {
   display: flex;
@@ -110,6 +111,62 @@ h2 {
   outline: none;
 }
 .text-field__error {
+  margin-top: 5px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #f44336;
+}
+
+.select-field {
+  height: 100px;
+  max-width: 240px;
+}
+.select-field__label {
+  margin-bottom: 5px;
+}
+.select-field__label label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #616161;
+}
+.select-field__inner {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #9e9e9e;
+  cursor: pointer;
+}
+.select-field__inner__icon, .select-field__inner__dropdown-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 10px;
+}
+.select-field__inner__icon svg, .select-field__inner__dropdown-icon svg {
+  fill: #757575;
+}
+.select-field__inner__dropdown-icon svg {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+.select-field__inner__value {
+  flex: 1;
+  height: 100%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+}
+.select-field__inner__value p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #616161;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.select-field__error {
   margin-top: 5px;
   font-size: 13.5px;
   font-weight: 500;

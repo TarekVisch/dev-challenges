@@ -1,5 +1,6 @@
-.text-field {
+.select-field {
   height: 100px;
+  max-width: 240px;
 
   &__label {
     margin-bottom: 5px;
@@ -22,7 +23,8 @@
 
     cursor: pointer;
 
-    &__icon {
+    &__icon,
+    &__dropdown-icon {
       display: flex;
       align-items: center;
       height: 100%;
@@ -33,25 +35,29 @@
       }
     }
 
-    &__input {
+    &__dropdown-icon {
+      svg {
+        background-color: $grey-300;
+        border-radius: 5px;
+      }
+    }
+
+    &__value {
       flex: 1;
       height: 100%;
+      min-width: 0;
 
-      input {
-        height: 100%;
-        width: 100%;
-        padding-right: 10px;
-        border: none;
-        background-color: transparent;
+      display: flex;
+      align-items: center;
 
-        font-family: $font-montserrat;
+      p {
         font-size: 17px;
         font-weight: 500;
         color: $grey-700;
 
-        &:focus {
-          outline: none;
-        }
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
   }
