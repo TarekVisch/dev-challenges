@@ -9,13 +9,13 @@
 //   address: { required: true }
 // };
 
-// const form = document.getElementById('form');
-// form.addEventListener('submit', (event) => {
-//   event.preventDefault();
+const form = document.getElementById('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
-//   const formInputs = Array.from(form.elements).filter(
-//     (el) => el.tagName !== 'BUTTON'
-//   );
+  // const formInputs = Array.from(form.elements).filter(
+  //   (el) => el.tagName !== 'BUTTON'
+  // );
 
-//   console.log(formInputs[5]);
-// });
+  // console.log(formInputs[5]);
+});
